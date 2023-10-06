@@ -1,14 +1,17 @@
+import { useState } from "react";
 import React from "react";
 import logoArzi from "./images/logoArzi.png";
-import menu from "./images/menu.png"
+import { links } from "./Links";
 
 export default function Navbar() {
+  let [Open, setOpen] = useState(false);
+
   return (
     <div id="top">
-      <header className="bg-white z-50 fixed top-0 w-full shadow">
+      <header className=" bg-gray-100 sticky top-0 w-full shadow">
         <nav
           id="main-nav"
-          className="bg-white max-w-5xl mx-auto font-poppins p-4 flex items-center justify-between"
+          className=" bg-gray-100 max-w-5xl mx-auto font-poppins p-4 md:flex md:items-center md:justify-between"
         >
           <a href="top" className="flex" aria-label="home">
             <img
@@ -20,30 +23,29 @@ export default function Navbar() {
               Arzi <strong>Beverage</strong>
             </span>
           </a>
-          <button
-          aria-label="toggle button"
-          aria-expended="false"
-          id="menu-btn"
-          className="cursor-pointer w-7 md:hidden"
+          <div
+            onClick={() => {
+              setOpen(!Open);
+            }}
+            className="text-3xl absolute right-8 top-4 cursor-pointer md:hidden"
           >
-                <img src={menu} alt=""/>
-          </button>
-          <ul 
-          id="toggled-menu"
-          className="w-full absolute top-full left-0 -translate-y-full -z-10 text-gray-800 border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row"
+            <ion-icon name={Open ? "close" : "menu"}></ion-icon>
+          </div>
+          <ul
+            id="toggled-menu"
+            className={`md:flex md:items-center md:pb-0 pb-6 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in
+            ${ Open ? 'top-10 bg-gray-100' : 'top-[-490px]'}`}
           >
-            <li className="py-4 md:py-0 md:mr-6">
-              <a href="#Home" className="text-sm uppercase font-semibold w-full">ACCEUIL</a>
-            </li>
-            <li href="Products" className="py-4 md:py-0 md:mr-6">
-              <a className="text-sm uppercase font-semibold w-full">PRODUITS</a>
-            </li>
-            <li href="#Apropos" className="py-2 md:py-0 md:mr-4">
-              <a className="text-sm uppercase font-semibold w-full">ARZI</a>
-            </li>
-            <li href="#Valeurs" className="py-4 md:py-0 md:mr-6">
-              <a className="text-sm uppercase font-semibold w-full">VALEURS</a>
-            </li>
+            {links.map((link) => (
+              <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+                <a
+                  href={link.link}
+                  className="text-sm uppercase font-semibold w-full"
+                >
+                  {link.name}
+                </a>
+              </li>
+            ))}
           </ul>
         </nav>
       </header>
