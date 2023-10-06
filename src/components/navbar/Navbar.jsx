@@ -8,18 +8,18 @@ export default function Navbar() {
 
   return (
     <div id="top">
-      <header className=" bg-gray-100 sticky top-0 w-full shadow">
+      <header className=" bg-white sticky top-0 w-full shadow">
         <nav
           id="main-nav"
-          className=" bg-gray-100 max-w-5xl mx-auto font-poppins p-4 md:flex md:items-center md:justify-between"
+          className=" bg-white max-w-5xl mx-auto font-poppins p-4 md:flex md:items-center md:justify-between"
         >
           <a href="top" className="flex" aria-label="home">
             <img
-              src={logoArzi}
+              src=""
               className="hidden md:w-7 md:inline md:mr-4"
               alt=""
             />
-            <span aria-hidden="true" className="text-lg lg:text-xl">
+            <span aria-hidden="true" className="text-lg lg:text-xl text-sky-500">
               Arzi <strong>Beverage</strong>
             </span>
           </a>
@@ -37,10 +37,10 @@ export default function Navbar() {
             ${ Open ? 'top-10 bg-gray-100' : 'top-[-490px]'}`}
           >
             {links.map((link) => (
-              <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+              <li key={link.name} className=" text-sky-500 md:ml-8 text-xl md:my-0 my-7">
                 <a
                   href={link.link}
-                  className="text-sm uppercase font-semibold w-full"
+                  className="text-sm uppercase font-[poppins] font-semibold w-full"
                 >
                   {link.name}
                 </a>
