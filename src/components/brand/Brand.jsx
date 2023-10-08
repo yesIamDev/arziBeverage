@@ -13,7 +13,7 @@ export default function Brand() {
         </p>
         <div className="my-3">
           <button className="flex flex-row  items-center justify-center w-full md:w-[250px] border p-2 bg-sky-500 font-bold text-white rounded-lg">
-            <span className="text-lg mx-2">
+            <span className="text-3xl mx-2">
               <ion-icon name="mail-unread"></ion-icon>
             </span>
             CONTACTEZ-NOUS
