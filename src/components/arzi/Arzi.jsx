@@ -4,7 +4,7 @@ import Engagement from './Engagement'
 
 export default function Arzi() {
   return (
-    <div>
+    <div id='arzi'>
         <Vision/>
         <Engagement/>
     </div>

@@ -33,7 +33,7 @@ export default function Navbar() {
           </div>
           <ul
             id="toggled-menu"
-            className={`md:flex md:items-center md:pb-0 pb-6 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in
+            className={`font-Nunito md:flex md:items-center md:pb-0 pb-6 absolute md:static md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in
             ${ Open ? 'top-10 bg-gray-100' : 'top-[-490px]'}`}
           >
             {links.map((link) => (

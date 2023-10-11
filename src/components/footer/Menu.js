@@ -1,27 +1,20 @@
 export const PRODUCTS = [
-  {name: 'Drag And Drog', link:'#'},
-  {name: 'Visual Studio X', link:'#'},
-  {name: 'Easy Content', link:'#'},
+  {name: 'Eau AquaKin', link:'#'},
+  {name: 'Vin Affection', link:'#'},
 ];
 export const RESSOURCES = [
-  {name: 'Industries and tools', link:'#'},
-  {name: 'Use cases', link:'#'},
-  {name: 'Blog', link:'#'},
-  {name: 'Online Event', link:'#'},
-  {name: 'Nostrud exercitation', link:'#'},
+  {name: 'Arzi Beverage', link:'#'},
+  {name: 'Nos produits', link:'#'},
+ {name: 'Nos services', link:'#'},  
 ];
 export const COMPANY = [
-  {name: 'Diversity & inlusion', link:'#'},
-  {name: 'About us', link:'#'},
   {name: 'Press', link:'#'},
   {name: 'Customer histories', link:'#'},
   {name: 'Online communities', link:'#'},
 ];
 export const SUPPORT  = [
-  {name: 'Documentation', link:'#'},
-  {name: 'Tutorials % guides', link:'#'},
-  {name: 'Webinars', link:'#'},
-  {name: 'Open source', link:'#'},
+  {name: 'Nous contatcter', link:'#'},
+  {name: 'Notre Communaute', link:'#'},
 ];
 
 export const Icons = [

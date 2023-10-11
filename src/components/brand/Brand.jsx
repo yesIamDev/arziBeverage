@@ -3,7 +3,7 @@ import bouteille from "./images/bouteille.jpg";
 
 export default function Brand() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
+    <div id="brand" className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
       <div className="font-Nunito text-start md:flex md:flex-col md:justify-center md:ml-20 mt-10 ml-2 p-2">
         <h2 className="font-extrabold text-5xl mb-5  text-sky-500">
           #Arzi <br /> berverage

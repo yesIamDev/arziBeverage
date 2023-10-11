@@ -4,7 +4,7 @@ import cto from "./images/cto.jpeg"
 
 export default function Team() {
   return (
-    <div className="py-20 bg-white">
+    <div id="team" className="py-10 bg-white mt-10">
       <div className="container mx-auto px-6 md:px-12 lg:px-8 font-Nunito">
         <div className="mb-12 text-center">
           <h1 className="font-bold text-sky-500 text-3xl md:text-5xl">
