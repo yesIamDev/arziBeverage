@@ -2,7 +2,7 @@ import React from "react";
 import SocialItems from "./SocialItems";
 import { Icons } from "./Menu";
 import logoArzi from "./images/logoArzi.png";
-import ItemsContainer from "./itemsContainer";
+import ItemsContainer from "./ItemsContainer";
 
 export default function Footer() {
   return (
