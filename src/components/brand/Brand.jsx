@@ -19,7 +19,9 @@ export default function Brand() {
             <span className="text-3xl mx-2">
               <ion-icon name="mail-unread"></ion-icon>
             </span>
-            CONTACTEZ-NOUS
+            <a href="#contacts" className=" transition-all duration-500 ease-in">
+              CONTACTEZ-NOUS
+            </a>
           </button>
         </div>
       </div>

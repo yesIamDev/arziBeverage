@@ -1,6 +1,7 @@
 import React from "react";
 import ceo from "./images/ceo.jpeg";
-import cto from "./images/cto.jpeg"
+import cto from "./images/cto.jpeg";
+import pm from "./images/yan.jpeg"
 
 export default function Team() {
   return (
@@ -36,6 +37,23 @@ export default function Team() {
           <div className="border-t-4 spae-y-8 group text-center">
             <div className="w-32 h-32 overflow-hidden -mt-16 mx-auto rounded-[2rem] rotate-45 my-5">
               <img
+                src={pm}
+                alt="ceo"
+                loading="lazy"
+                width="640"
+                className="w-full h-full object-cover -rotate-45 scale-125 mx-auto transition duration-300 group-hover:scale[1.4]"
+              />
+            </div>
+            <div className="text-center">
+              <h5 className="text-xl text-gray-800 font-semibold">
+                Yannick Kubuya
+              </h5>
+              <span className=" text-sm text-gray-500">Project Manager</span>
+            </div>
+          </div>
+          <div className="border-t-4 spae-y-8 group text-center">
+            <div className="w-32 h-32 overflow-hidden -mt-16 mx-auto rounded-[2rem] rotate-45 my-5">
+              <img
                 src={cto}
                 alt="ceo"
                 loading="lazy"
@@ -45,26 +63,9 @@ export default function Team() {
             </div>
             <div className="text-center">
               <h5 className="text-xl text-gray-800 font-semibold">
-                Destin Kifende
+                  Destin Kifende
               </h5>
               <span className=" text-sm text-gray-500">Technical Manager</span>
-            </div>
-          </div>
-          <div className="border-t-4 spae-y-8 group text-center">
-            <div className="w-32 h-32 overflow-hidden -mt-16 mx-auto rounded-[2rem] rotate-45 my-5">
-              <img
-                src={ceo}
-                alt="ceo"
-                loading="lazy"
-                width="640"
-                className="w-full h-full object-cover -rotate-45 scale-125 mx-auto transition duration-300 group-hover:scale[1.4]"
-              />
-            </div>
-            <div className="text-center">
-              <h5 className="text-xl text-gray-800 font-semibold">
-                  Yannick Kubuya
-              </h5>
-              <span className=" text-sm text-gray-500">Project Manager</span>
             </div>
           </div>
         </div>
