@@ -1,5 +1,5 @@
 import React from "react";
-import Item from "./item";
+import Item from "./Item";
 import { PRODUCTS, RESSOURCES, COMPANY, SUPPORT } from "./Menu";
 
 export default function ItemsContainer() {
