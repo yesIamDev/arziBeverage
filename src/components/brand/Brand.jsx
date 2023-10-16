@@ -15,7 +15,7 @@ export default function Brand() {
           Production locale d'une eau minerale nommee AQUAKIN <br/> Ainsi qu'un vin trop energissant et plein de bienfaits sur la sante humaine.
         </p>
         <div className="my-3">
-          <button className="flex flex-row  items-center justify-center w-full md:w-[250px] border p-2 bg-sky-500 font-bold text-white rounded-lg">
+          <button className="flex flex-row hover:scale-110 hover:ease-in-out duration-300  items-center justify-center w-full md:w-[250px] border p-2 bg-sky-500 font-bold text-white rounded-lg">
             <span className="text-3xl mx-2">
               <ion-icon name="mail-unread"></ion-icon>
             </span>

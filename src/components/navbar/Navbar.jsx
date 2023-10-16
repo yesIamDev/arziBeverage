@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import logoArzi from "./images/logoArzi.png";
+import logo from './images/logoB.png'
 import { links } from "./Links";
 
 export default function Navbar() {
@@ -15,11 +15,11 @@ export default function Navbar() {
         >
           <a href="top" className="flex" aria-label="home">
             <img
-              src=""
-              className="hidden md:w-7 md:inline md:mr-4"
-              alt=""
+              src={logo}
+              className=" hidden md:w-7  md:inline md:mr-4"
+              alt="logo"
             />
-            <span aria-hidden="true" className="text-lg lg:text-xl text-sky-500">
+            <span aria-hidden="true" className="text-lg text-sky-500">
               Arzi <strong>Beverage</strong>
             </span>
           </a>
@@ -37,10 +37,10 @@ export default function Navbar() {
             ${ Open ? 'top-10 bg-gray-100' : 'top-[-490px]'}`}
           >
             {links.map((link) => (
-              <li key={link.name} className=" text-sky-500 md:ml-8 text-xl md:my-0 my-7">
+              <li key={link.name} className=" text-sky-500 md:ml-8 text-lg md:my-0 my-7">
                 <a
                   href={link.link}
-                  className="text-sm uppercase font-[poppins] font-semibold w-full"
+                  className="text-sm uppercase font-[poppins] font-semibold w-full hover:text-sky-550 hover:brightness-110 hover:ease-in-out duration-300"
                 >
                   {link.name}
                 </a>

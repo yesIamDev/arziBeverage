@@ -16,9 +16,9 @@ export default function Contacts() {
         </p>
       </div>
       <div className="flex items-center justify-center my-6 font-Nunito">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-              <div className="w-[350px] p-10 my-7 flex flex-col items-center justify-center text-center font-Nunito border rounded-lg outline-none shadow-lg hover:shadow-xl">
-                  <span className="text-4xl"> 
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+              <div className=" bg-white w-[350px] p-10 my-7 flex flex-col items-center justify-center text-center font-Nunito border rounded-lg outline-none shadow-lg hover:shadow-xl">
+                  <span className="text-4xl text-sky-500"> 
                     <MdOutlineAlternateEmail/>
                   </span>
                   <h2 className="m-3 text-2xl font-semibold">
@@ -28,8 +28,8 @@ export default function Contacts() {
                       arzi@arzibeverage.com
                   </p>
               </div>
-              <div className="w-[350px] p-10 my-7 flex flex-col items-center justify-center text-center font-Nunito border rounded-lg outline-none shadow-lg hover:shadow-xl">
-                  <span className="text-4xl"> 
+              <div className=" bg-white w-[350px] p-10 my-7  flex flex-col items-center justify-center text-center font-Nunito border rounded-lg outline-none shadow-lg hover:shadow-xl">
+                  <span className="text-4xl  text-sky-500"> 
                     <MdPlace/>
                   </span>
                   <h2 className="m-3 text-2xl font-semibold">
@@ -39,8 +39,8 @@ export default function Contacts() {
                      RDC Kinshasa, Commune de N'Sele, <br/> Quartier Kindobo, Avenue Bashengezi.
                   </p>
               </div> 
-              <div className="w-[350px] p-10 my-7 flex flex-col items-center justify-center text-center font-Nunito border rounded-lg outline-none shadow-lg hover:shadow-xl">
-                  <span className="text-4xl"> 
+              <div className=" bg-white w-[350px] p-10 my-7 flex flex-col items-center justify-center text-center font-Nunito border rounded-lg outline-none shadow-lg hover:shadow-xl">
+                  <span className="text-4xl  text-sky-500"> 
                     <BsFillTelephoneFill/>
                   </span>
                   <h2 className="m-3 text-2xl font-semibold">

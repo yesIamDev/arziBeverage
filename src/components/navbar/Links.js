@@ -1,6 +1,6 @@
 export const links = [
-  {name:"ACCEUIL",link:"/"},
-  {name:"PRODUITS",link:"/"},
-  {name:"ARZI",link:"#arzi"},
-  {name:"CONTACTS",link:"#contacts"},
+  {name:"Acceuil",link:"/"},
+  {name:"Produits",link:"/"},
+  {name:"Arzi",link:"#arzi"},
+  {name:"Contacts",link:"#contacts"},
 ]

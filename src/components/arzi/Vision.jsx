@@ -9,14 +9,17 @@ export default function Vision() {
           <h1 className="font-Nunito text-start font-extrabold text-sky-500 text-3xl md:text-5xl my-7">
             Vision Arzi
           </h1>
-          <p className="text-xl font-Nunito">
-            <strong>Arzi</strong> a pour vision de donner aux communautes
-            locales l'ocasion ainsi que des opportinutes d'ameliorer leur
-            qualite de vie <br />
-            en les impliquant dans des travaux manuels ainsi qu'administratives
-            et <br /> ainsi contribuer a la dimunission du taux de chaumage au
-            sein de notre pays la RDC.
-          </p>
+          <ul className="text-lg font-Nunito">
+              <li className="my-3 p-3 border outline-none shadow-lg rounded-lg hover:shadow-xl hover:ease-in-out duration-300">
+                Fournir une eau de Qualite a +15Millions de personnes Kinoises.
+              </li>
+              <li className="my-3 p-3 border outline-none shadow-lg rounded-lg hover:shadow-xl hover:ease-in-out duration-300">
+                Devenir leader National dans le breuvage(Eau,Vin,Jus,etc...)
+              </li>
+              <li className="my-3 p-3 border outline-none shadow-lg rounded-lg hover:shadow-xl hover:ease-in-out duration-300">
+                Accompagner la Vision de la Republique en industrualisant la partie Est de Kinshasa.
+              </li>
+          </ul>
         </div>
         <div className="m-2 p-10  md:flex md:items-center md:justify-center md:visible hidden">
           <img src={undraw_beer} alt="undraw_beer" />

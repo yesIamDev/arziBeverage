@@ -7,6 +7,7 @@ import Arzi from "./components/arzi/Arzi";
 import Team from "./components/Team/Team";
 import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
+import Products from "./components/Products/Products";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Brand />
       <Values />
       <Arzi />
+      <Products />
       <Team />
       <Contacts />
       <Footer />
