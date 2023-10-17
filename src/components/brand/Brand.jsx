@@ -6,13 +6,14 @@ export default function Brand() {
     <div id="brand" className="grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-5">
       <div className="font-Nunito text-start md:flex md:flex-col md:justify-center md:ml-20 mt-10 ml-2 p-2">
         <h2 className="font-extrabold text-5xl mb-5  text-sky-500">
-          #Arzi <br /> berverage
+          #Arzi <br /> berverage.
         </h2>
         <p className="text-5xl font-bold ">
           Entreprise congolaise <br /> de production des boissons.
         </p>
         <p>
-          Production locale d'une eau minerale nommee AQUAKIN <br/> Ainsi qu'un vin trop energissant et plein de bienfaits sur la sante humaine.
+          AQUAKIN, une eau produite a Kinshasa pour les kinois au standards de min de la sante. <br/>
+          Le Vin AFFECTION, un produit qui repond a la diversite culturelle congolaise.
         </p>
         <div className="my-3">
           <button className="flex flex-row hover:scale-110 hover:ease-in-out duration-300  items-center justify-center w-full md:w-[250px] border p-2 bg-sky-500 font-bold text-white rounded-lg">

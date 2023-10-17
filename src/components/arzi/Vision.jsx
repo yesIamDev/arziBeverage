@@ -11,7 +11,7 @@ export default function Vision() {
           </h1>
           <ul className="text-lg font-Nunito">
               <li className="my-3 p-3 border outline-none shadow-lg rounded-lg hover:shadow-xl hover:ease-in-out duration-300">
-                Fournir une eau de Qualite a +15Millions de personnes Kinoises.
+                Fournir une eau de Qualite a +15Millions de population de Kinshasa et ses environs.
               </li>
               <li className="my-3 p-3 border outline-none shadow-lg rounded-lg hover:shadow-xl hover:ease-in-out duration-300">
                 Devenir leader National dans le breuvage(Eau,Vin,Jus,etc...)
