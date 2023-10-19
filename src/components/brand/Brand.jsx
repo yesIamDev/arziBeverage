@@ -12,8 +12,8 @@ export default function Brand() {
           Entreprise congolaise <br /> de production des boissons.
         </p>
         <p>
-          AQUAKIN, une eau produite a Kinshasa pour les kinois au standards de min de la sante. <br/>
-          Le Vin AFFECTION, un produit qui repond a la diversite culturelle congolaise.
+          AQUAKIN, une eau produite à Kinshasa pour les kinois au standards de min de la santé. <br/>
+          Le Vin AFFECTION, un produit qui repond à la diversité culturelle congolaise.
         </p>
         <div className="my-3">
           <button className="flex flex-row hover:scale-110 hover:ease-in-out duration-300  items-center justify-center w-full md:w-[250px] border p-2 bg-sky-500 font-bold text-white rounded-lg">

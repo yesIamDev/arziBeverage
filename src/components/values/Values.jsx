@@ -10,7 +10,7 @@ export default function Values() {
         </h2>
         <p className="text-center mt-7 mb-10 mx-20 text-xl">
           4 principes nous permettent non seulement d'assurer l'hamonie dans nos
-          differentes equipes de travail mais aussi dans nos relations avec nos
+          differentes équipes de travail mais aussi dans nos relations avec nos
           clients.
         </p>
         <div className="flex items-center justify-center mx-5">
@@ -38,7 +38,7 @@ export default function Values() {
                 </div>
                 <div className=" font-Nunito">
                   <h1 className="mb-4 text-3xl md:text-xl font-bold p-5">
-                    Creativite
+                    Créativité
                   </h1>
                   <p className="text-center text-lg md:px-10">
                     Nous cherchons toujours à apporter des idées et des méthodes
@@ -70,7 +70,7 @@ export default function Values() {
                 </div>
                 <div className="font-Nunito]">
                   <h1 className="mb-4 text-3xl md:text-xl font-bold p-5">
-                    Travail d'equipe
+                    Travail d'équipe
                   </h1>
                   <p className="text-center text-lg md:px-10">
                     Nous croyons en la collaboration entre nous tous pour

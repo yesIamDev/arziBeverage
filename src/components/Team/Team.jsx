@@ -12,7 +12,7 @@ export default function Team() {
             Notre Equipe
           </h1>
           <p className="lg:w-8/12 lg:mx-auto my-4">
-            Une equipe des jeunes entrepreneurs Congolais investie de tout coeur afin
+            Une equipe des jeunes entrepreneurs Congolais investies de tout coeur afin
             d'aller au bout de la vision de ARZI.
           </p>
         </div>
