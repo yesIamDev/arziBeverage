@@ -1,4 +1,4 @@
-import React from "react";
+
 import ceo from "./images/ceo.jpeg";
 import cto from "./images/cto.jpeg";
 import pm from "./images/yan.jpeg"

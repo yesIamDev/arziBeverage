@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Vision from './Vision'
 import Engagement from './Engagement'
 

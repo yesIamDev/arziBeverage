@@ -1,4 +1,4 @@
-import React from "react";
+
 import undraw_beer from "./images/undraw_beer_xg5f.png";
 
 export default function Vision() {

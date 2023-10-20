@@ -18,7 +18,7 @@ function App() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Arzi beverage</title>
         <link ref="icon" href=""></link>
-        <meta httpEquiv="x-ua-compatible" content="IE-edge; chrome=1"/>
+        <meta httpEquiv="x-ua-compatible" content="IE-edge; chrome=1" />
         <meta
           name="keywords"
           content="Arzi, Arzi beverage, eau kin, Aquakin, vin, vin Affection, vin Kinshasa, beverage "
@@ -29,13 +29,13 @@ function App() {
         />
       </Helmet>
       <Navbar />
-        <Brand />
-          <Values />
-            <Arzi />
-              <Products />
-                <Team />
-                  <Contacts />
-                      <Footer />
+      <Brand />
+      <Values />
+      <Arzi />
+      <Products />
+      <Team />
+      <Contacts />
+      <Footer />
     </div>
   );
 }

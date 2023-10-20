@@ -1,4 +1,4 @@
-import React from "react";
+
 import bouteille from "./images/bouteille.jpg";
 
 export default function Brand() {

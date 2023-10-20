@@ -1,5 +1,4 @@
 import { useState } from "react";
-import React from "react";
 import logo from './images/logoB.png'
 import { links } from "./Links";
 

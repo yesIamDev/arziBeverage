@@ -1,4 +1,4 @@
-import React from "react";
+
 import winAndWater from "./images/winW.png";
 import tour from './images/tour.png'
 

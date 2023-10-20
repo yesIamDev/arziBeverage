@@ -1,4 +1,4 @@
-import React from "react";
+
 import Item from "./Item";
 import { PRODUCTS, RESSOURCES, COMPANY, SUPPORT } from "./Menu";
 

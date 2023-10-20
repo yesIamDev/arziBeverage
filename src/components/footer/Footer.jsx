@@ -1,4 +1,4 @@
-import React from "react";
+
 import SocialItems from "./SocialItems";
 import { Icons } from "./Menu";
 import logoArzi from "./images/logoArzi.png";
