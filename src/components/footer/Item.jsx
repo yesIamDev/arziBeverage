@@ -3,7 +3,7 @@
 export default function Item({ links, title }) {
   return (
     <ul>
-      <h1 className="mb-1 font-semibold text-xl md:text-3xl">{title}</h1>
+      <h1 className="mb-1 font-semibold text-xl md:text-2xl">{title}</h1>
       {links.map((link) => (
         <li key={link.name}>
           <a

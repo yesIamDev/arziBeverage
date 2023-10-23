@@ -9,15 +9,16 @@ import Contacts from "./components/contacts/Contacts";
 import Footer from "./components/footer/Footer";
 import Products from "./components/Products/Products";
 import { Helmet } from "react-helmet";
+import logo from '../src/components/navbar/images/logoB.png'
 
 function App() {
   return (
-    <div className="min-w-3xl">
+    <div className="h-screen select-none overflow-y-scroll overflow-x-hidden no-scrollbar">
       <Helmet>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Arzi beverage</title>
-        <link ref="icon" href=""></link>
+        <link ref="icon" href="../src/components/navbar/images/logoB.png"></link>
         <meta httpEquiv="x-ua-compatible" content="IE-edge; chrome=1" />
         <meta
           name="keywords"

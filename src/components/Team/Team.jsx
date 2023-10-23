@@ -24,7 +24,7 @@ export default function Team() {
                 alt="ceo"
                 loading="lazy"
                 width="640"
-                className="w-full h-full object-cover -rotate-45 scale-125 mx-auto transition duration-300 group-hover:scale[1.4]"
+                className="w-full h-full object-cover -rotate-45 scale-125 mx-auto transition duration-300"
               />
             </div>
             <div className="text-center">

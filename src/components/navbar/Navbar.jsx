@@ -10,7 +10,7 @@ export default function Navbar() {
       <header className=" bg-white sticky top-0 w-full shadow">
         <nav
           id="main-nav"
-          className=" bg-white max-w-5xl mx-auto font-poppins p-4 md:flex md:items-center md:justify-between"
+          className=" bg-white max-w-5xl mx-auto p-4 md:flex md:items-center md:justify-between"
         >
           <a href="top" className="flex" aria-label="home">
             <img
@@ -26,7 +26,7 @@ export default function Navbar() {
             onClick={() => {
               setOpen(!Open);
             }}
-            className="text-3xl absolute right-8 top-4 cursor-pointer md:hidden"
+            className="text-3xl absolute right-8 top-4 cursor-pointer md:hidden text-sky-500"
           >
             <ion-icon name={Open ? "close" : "menu"}></ion-icon>
           </div>
@@ -38,8 +38,11 @@ export default function Navbar() {
             {links.map((link) => (
               <li key={link.name} className=" text-sky-500 md:ml-8 text-lg md:my-0 my-7">
                 <a
+                  onClick={() => {
+                    setOpen(false)
+                  }}
                   href={link.link}
-                  className="text-sm uppercase font-[poppins] font-semibold w-full hover:text-sky-550 hover:brightness-110 hover:ease-in-out duration-300"
+                  className="text-sm uppercase font-semibold w-full hover:text-sky-550 hover:brightness-110 hover:ease-in-out duration-300"
                 >
                   {link.name}
                 </a>

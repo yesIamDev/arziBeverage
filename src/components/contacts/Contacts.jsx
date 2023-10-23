@@ -6,7 +6,7 @@ import {BsFillTelephoneFill} from 'react-icons/bs'
 
 export default function Contacts() {
   return (
-    <div id="contacts" className="my-5 py-10 w-full bg-gray-100 flex flex-col items-center justify-center">
+    <div id="contacts" className="min-h-screen my-5 py-10 w-full bg-gray-100 flex flex-col items-center justify-center">
       <div className="font-Nunito text-center">
         <h2 className="text-3xl md:text-5xl font-extrabold text-sky-500">
           Contactez-nous

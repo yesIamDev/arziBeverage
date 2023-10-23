@@ -1,4 +1,4 @@
-export const PRODUCTS = [
+export const PRODUITS = [
   {name: 'Eau AquaKin', link:'#'},
   {name: 'Vin Affection', link:'#'},
 ];
