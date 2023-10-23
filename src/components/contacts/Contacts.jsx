@@ -47,7 +47,7 @@ export default function Contacts() {
                     WhatsApp
                   </h2>
                   <p>
-                      +243 (0) 895 211 263 <br/> +243 (0) 998 215 728
+                      +243 (0) 840 146 739 <br/> +243 (0) 998 215 728
                   </p>
               </div>
         </div>
