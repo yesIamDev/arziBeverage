@@ -6,7 +6,7 @@ import ItemsContainer from "./ItemsContainer";
 
 export default function Footer() {
   return (
-    <footer className=" bg-sky-500 text-white">
+    <footer className=" bg-sky-500 text-white font-Nunito">
       <div className="p-7">
         <img src={logoArzi} alt="arzi" />
       </div>

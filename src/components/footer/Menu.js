@@ -3,22 +3,26 @@ export const PRODUITS = [
   {name: 'Vin Affection', link:'#'},
 ];
 export const RESSOURCES = [
-  {name: 'Arzi Beverage', link:'#'},
-  {name: 'Nos produits', link:'#'},
- {name: 'Nos services', link:'#'},  
+  {name: 'FEC', link:'https://www.fec-rdc.com/'},
+  {name: 'ANADEC', link:'https://anadec.cd/'},
+ {name: 'MPME', link:'https://padmpme.cd/'},
+ {name: 'ARSP', link:'https://arsp.cd/'},
+
 ];
-export const COMPANY = [
-  {name: 'Press', link:'#'},
-  {name: 'Customer histories', link:'#'},
-  {name: 'Online communities', link:'#'},
-];
+
+export const ARZI = [
+  {name:'arzi@arzibeverage.com', link:'#'},
+  {name:'RDC Kinshasa', link:"#"},
+  {name:'Quartier Kindobo', link:"#"}
+]
+
 export const SUPPORT  = [
   {name: 'Nous contatcter', link:'#'},
   {name: 'Notre Communaute', link:'#'},
 ];
 
 export const Icons = [
-  {name: 'logo-linkedin', link:"#"},
-  {name: 'logo-twitter', link:"#"},
-  {name: 'logo-instagram', link:"#"},
+  {name: 'logo-linkedin', link:"https://www.linkedin.com/in/arzi-beverage-company-45a9a0296/"},
+  {name: 'logo-twitter', link:"https://twitter.com/arzibeverage"},
+  {name: 'logo-instagram', link:"https://instagram.com/arzibeverage_"},
 ];
