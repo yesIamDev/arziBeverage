@@ -20,7 +20,7 @@ export default function Engagement() {
             Fin 2024, <strong>Arzi</strong> lancera la fondation Arzi: une
             organisation sans but lucratif qui sera axée sur la Formation
             Professionelle des communautés, Assistance aux personnes
-            vulnerables, Soustient par bourse d'Excellence aux meilleurs élèves
+            vulnerables, Soutient par bourse d'Excellence aux meilleurs élèves
             finalistes entrant à l'université.
           </p>
         </div>

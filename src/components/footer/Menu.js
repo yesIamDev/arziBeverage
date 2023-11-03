@@ -2,7 +2,7 @@ export const PRODUITS = [
   {name: 'Eau AquaKin', link:'#'},
   {name: 'Vin Affection', link:'#'},
 ];
-export const RESSOURCES = [
+export const AUTRES_LIENS = [
   {name: 'FEC', link:'https://www.fec-rdc.com/'},
   {name: 'ANADEC', link:'https://anadec.cd/'},
  {name: 'MPME', link:'https://padmpme.cd/'},
