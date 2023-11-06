@@ -1,6 +1,5 @@
 import p1 from "./images/p1.png";
 import p4 from "./images/p4.png";
-import p3 from "./images/p3.png";
 
 export default function Products() {
   return (
